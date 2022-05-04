@@ -5,9 +5,11 @@
 </section>
 
 <h1 align="center">TiebaSign-贴吧签到助手</h1>
+
 <section align="center">
-![](https://yife68.gitee.io/icat-pic-2022/05/04/3.svg)
+<img src="https://yife68.gitee.io/icat-pic-2022/05/04/3.svg" />
 </section>
+
 # 使用
 自动化执行任务: 百度贴吧每日签到
 自动化运行时间: 北京时间 **凌晨02点** 以及 **下午18点**（可修改 时间差为+8）
