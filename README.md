@@ -46,7 +46,3 @@ DevTools截图:
 
 # GitHub地址
 项目直达链接：https://github.com/yife68/TiebaSign/
-
-# 下载地址
-
-文章底部获取：https://meuicat.com/blog/25/
