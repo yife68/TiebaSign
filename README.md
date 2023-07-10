@@ -20,11 +20,20 @@
 
 | Name | Value |
 |  ------  |  ------  |
-| BDUSS |  百度贴吧BDUSS, 打开浏览器，登录 [百度贴吧](https://tieba.baidu.com/), 打开控制台 → 应用 → Cookie，复制 `BDUSS` 的值  |
+| BDUSS | 百度贴吧BDUSS, 打开浏览器，登录 [百度贴吧](https://tieba.baidu.com/), 打开控制台 → 应用 → Cookie，复制 `BDUSS` 的值 |
 
 ![](https://yife68.gitee.io/icat-pic/posts/2022/5/4.webp)
 
-❸  `仓库` → `Actions`, 检查`Workflows`并启用
+❸  邮箱通知配置 `仓库` → `Settings` → `Secrets` → `New repository secret`, 添加`Secrets`变量如下:
+
+| Name | Value |
+|  ------  |  ------  |
+| HOST | SMTP服务器的主机地址 |
+| FROM | 发件人的邮箱地址 |
+| TO | 收件人的邮箱地址，可以同时发送给多个收件人，用"#"进行分隔 |
+| AUTH | 发件人的邮箱授权码或密码 |
+
+❹  `仓库` → `Actions`, 检查`Workflows`并启用
 
 # 签到预览
 ![](https://yife68.gitee.io/icat-pic/posts/2022/5/5.webp)
